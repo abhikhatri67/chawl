@@ -87,14 +87,13 @@ home=f'''
 <div class="card rv d3">{ic('ai')}<h3>AI</h3><p>LLMs, vision and ML that solve real business problems.</p></div>
 </div><div style="text-align:center;margin-top:48px" class="rv"><a class="btn ghost" href="/services.html">See all services</a></div></div></section>
 
-<section style="background:var(--bg2);border-block:1px solid var(--line)"><div class="wrap split">
+<section style="background:var(--bg2);border-block:1px solid var(--line)"><div class="wrap">
 <div><span class="eyebrow rv">How we work</span><h2 class="rv">A simple process, <span class="grad">no surprises</span></h2>
-<div style="margin-top:40px">
+<div class="grid g2" style="margin-top:40px;gap:0 60px">
 <div class="step rv"><b>1 · Discover</b><p>We learn your market, users and constraints, then define what success looks like.</p></div>
 <div class="step rv"><b>2 · Design &amp; prototype</b><p>Rapid prototypes — on screen or on a bench — to validate before we scale.</p></div>
 <div class="step rv"><b>3 · Build</b><p>Short iterations, weekly demos and transparent progress.</p></div>
 <div class="step rv"><b>4 · Launch &amp; evolve</b><p>Deployment, monitoring and support as your product grows.</p></div></div></div>
-<div class="orbit rv" aria-hidden="true"><i></i><i></i><i></i><b>chawl</b></div>
 </div></section>
 {cta()}
 '''
@@ -132,11 +131,10 @@ svc_schema=[{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 about=f'''
 <section class="sub-hero"><div class="wrap"><span class="eyebrow rv">About Chawl</span><h1 class="rv d1">A small team building <span class="grad">serious technology</span></h1>
 <p class="lead rv d2">Chawl is a product and consultancy company. We exist to help businesses turn ideas into working products — across software, hardware, IoT and AI.</p></div></section>
-<section style="padding-top:40px"><div class="wrap split">
-<div><span class="eyebrow rv">Our story</span><h2 class="rv">Where the digital meets the physical</h2>
+<section style="padding-top:40px"><div class="wrap">
+<div style="max-width:760px"><span class="eyebrow rv">Our story</span><h2 class="rv">Where the digital meets the physical</h2>
 <p class="lead rv" style="margin-bottom:16px">Most products today live in both worlds: a device in the field, software in the cloud, intelligence in between. Few teams can build all three.</p>
-<p class="lead rv">We started Chawl to be that team — engineers who are as comfortable with a soldering iron as with a Kubernetes cluster and a language model.</p></div>
-<div class="orbit rv" aria-hidden="true"><i></i><i></i><i></i><b>chawl</b></div></div></section>
+<p class="lead rv">We started Chawl to be that team — engineers who are as comfortable with a soldering iron as with a Kubernetes cluster and a language model.</p></div></div></section>
 <section style="background:var(--bg2);border-block:1px solid var(--line)"><div class="wrap"><span class="eyebrow rv">Mission &amp; values</span><h2 class="rv">What we stand for</h2>
 <div class="grid g3">
 <div class="card rv"><h3>Build to last</h3><p>Clean architecture, tested code and documented hardware — products that survive contact with reality.</p></div>
