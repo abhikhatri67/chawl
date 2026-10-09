@@ -80,14 +80,14 @@ nav{display:flex;align-items:center;justify-content:space-between;height:78px}
 .tags span{padding:10px 20px;border:1px solid var(--line);border-radius:99px;color:var(--mut);transition:.25s;background:var(--card)}
 .tags span:hover{border-color:var(--a);color:var(--tx);transform:translateY(-3px)}
 /* orbit visual */
-.orbit{aspect-ratio:1;position:relative;max-width:460px;margin:auto}
+.orbit{aspect-ratio:1;position:relative;width:100%;max-width:460px;margin:auto}
 .orbit i{position:absolute;inset:0;border:1px dashed #2a3150;border-radius:50%;animation:spin 30s linear infinite}
 .orbit i:nth-child(2){inset:16%;animation-duration:20s;animation-direction:reverse}
 .orbit i:nth-child(3){inset:32%;animation-duration:14s}
 .orbit i::after{content:"";position:absolute;top:-6px;left:50%;width:12px;height:12px;border-radius:50%;background:var(--b);box-shadow:0 0 18px var(--b)}
 .orbit i:nth-child(2)::after{background:var(--a);box-shadow:0 0 18px var(--a)}
 .orbit i:nth-child(3)::after{background:var(--c);box-shadow:0 0 18px var(--c)}
-.orbit b{position:absolute;inset:42%;border-radius:50%;background:var(--grad);display:grid;place-items:center;color:#05060a;font-family:'Space Grotesk';font-size:1.4rem;box-shadow:0 0 60px rgba(124,92,255,.6)}
+.orbit b{position:absolute;inset:36%;border-radius:50%;background:var(--grad);display:grid;place-items:center;color:#05060a;font-family:'Space Grotesk';font-size:1.4rem;box-shadow:0 0 60px rgba(124,92,255,.6)}
 @keyframes spin{to{transform:rotate(360deg)}}
 /* cta block */
 .big-cta{text-align:center;background:radial-gradient(circle at 50% 0,rgba(124,92,255,.25),transparent 60%),var(--bg2);border:1px solid var(--line);border-radius:36px;padding:90px 30px}
